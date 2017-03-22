@@ -1,0 +1,146 @@
+
+body {
+  font-family: 'Raleway', sans-serif;
+  height: 100%;
+}
+
+/* =Header
+----------------------------------------------- */
+header {
+  background-color: #92E0E5;
+  border-top: 1px solid #000000;
+  padding: 5px;
+  height: 50px;
+}
+
+/* =Nav
+----------------------------------------------- */
+.icon {
+  width: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+ul{
+  float:right;
+  margin-top: 15px;
+  margin-right: 25px ;
+}
+li {
+  display: inline;
+  text-align: left;
+  margin-right: 15px;
+  color: #ffffff;
+}
+
+/* =Center-section
+----------------------------------------------- */
+.center_wrapper {
+  height: 500px;
+  background-size: cover;
+  background-image: url("images/park.jpg");
+}
+.intro{
+  text-align: center;
+}
+img.dog {
+  margin-top: 20px;
+  border: 4px solid #3F8DA7;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+h1{
+  font-size: 30px;
+  padding-top: 30px;
+  /*margin-top: 10px;*/
+}
+h3 {
+  margin: auto;
+  margin-top: 10px;
+  width: 140px;
+  padding: 3px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 4px solid #3F8DA7;
+  color: #3F8DA7;
+  background: #ffffff;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* =Sub-section
+----------------------------------------------- */
+.wrapper{
+  margin: auto;
+  margin: 4px;
+  text-align: center;
+}
+.sub-section{
+  vertical-align: top;
+  width: 31.3%;
+  display: inline-block;
+}
+h2 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 18px;
+  /*display: inline-block;*/
+}
+.sub-dog {
+  border: 3px solid #3F8DA7;
+  text-align: center;
+  margin: auto;
+  margin-top: 24px;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.sub-h3{
+  margin-top: 30px;
+  width: 105px;
+}
+.sub-section{
+  text-align: center;
+  margin: 5px;
+  min-width: 300px;
+  margin-left: 15px;
+}
+
+/* =Footer
+----------------------------------------------- */
+footer {
+  margin-top: 30px;
+  background-color: #3F8DA7;
+  height: 200px;
+}
+.footer-wrapper{
+  vertical-align: middle;
+  text-align: center;
+}
+.footer-images-container{
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 30px;
+}
+.footer-text{
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  vertical-align: middle;
+  padding-top: 20px;
+}
+.github-link{
+  color: #ffffff;
+}
+.link-wrapper{
+  margin-top: 20px;
+}
+.footer-image {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
